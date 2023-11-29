@@ -1,0 +1,183 @@
+]<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>projeto - 4º Semestre da soso</title>
+    
+<link rel="stylesheet" href="./src/css/style.css"></head>
+<link rel="stylesheet" href="./src/css/mobile.css">
+
+
+<body>
+
+   
+    <header class="cabeçalho">
+        <img src="./src/img/logo.svg" class="cabeçalhodaLogo">
+    </header>
+    <br>
+
+ <div class="cabeçalhoEInfomações">   
+  <div class="alinharCabeçalho"> 
+    <main>
+
+        <h1 id="alinharTextosNoHeader">REABERTURA<br> SMART FIT</h1>
+        <div class="caixaBlack"  id="alinharTextosNoHeader"></div>
+        <br>
+        <p  id="alinharTextosNoHeader"> O horário de funcionamento das nossas unidades está seguindo os decretos 
+            de cada município. Por isso, confira aqui se a sua <br>unidade está aberta e
+             as medidas de segurança que estamos seguindo.</p><br>
+        </div> 
+    </div>
+ </div>          
+
+<div class="conteúdo">
+    <div class="horários">
+        <div class="relógio">
+
+        
+        <img src="./src/img/icon-hour.png" class="fotoDoRelógio">
+        <p class="textoDoRelógio">Horário</p>
+        </div>
+<form>
+    <br>
+    <label for="horários" >Qual período quer treinar?<hr><br></br></label>
+    
+    <input type="radio" for="horários" > <label class="turnos" >Manhã <div class="posicionamentoDoHorário">06:00 às 12:00</div></label>
+<hr><br>
+    
+    <input type="radio" for="horários" > <label class="turnos" >Tarde <div class="posicionamentoDoHorário">12:01 às 18:00</div></label> 
+<hr><br>
+    <input type="radio"for="horários" > <label class="turnos" >Noite <div class="posicionamentoDoHorário">18:01 às 23:00</div></label>   
+<hr>
+<br><br>
+
+
+<input type="checkbox" class="inputVersoMobile"> Exibir unidades fechadas</input><label class="resultadosEncontrados">Resultados encontrados: <b>0</b></label> 
+<br><br><br>
+<div class="listaDeBotoes">
+   <button class="botoesDehorarios" type="submit">ENCONTRAR UNIDADE</button>
+   <button class="botoesDehorarios2" type="reset">LIMPAR</button>
+</div>
+</form>
+
+   
+   </div>
+</div>   
+<br>
+
+<div class="listaDeEquipamentos">
+
+<ul>
+    <li>
+        <p class="cordosequipamentos">Máscara</p>
+
+     <div class="fotoDosEquipamentos">
+        <img src="./src/img/required-mask.png" class="fotos" >
+       
+        <img src="./src/img/recommended-mask.png" class="fotos">
+        
+     </div>
+     <div class="listaDeRecomendação">
+        <p>Obrigatório</p>
+        <p>Recomendado</p>
+     </div></li>
+
+    <li>
+        <p class="cordosequipamentos">Toalha</p>  
+        <div class="fotoDosEquipamentos">
+            <img src="./src/img/required-towel.png" class="fotos" >         
+            <img src="./src/img/recommended-towel.png" class="fotos">          
+         </div>
+         <div class="listaDeRecomendação">
+            <p>Obrigatório</p>
+            <p>Recomendado</p>
+         </div>
+    </li>
+    <li>
+        <p class="cordosequipamentos">Bebedouros</p>     
+        <div class="fotoDosEquipamentos">
+            <img src="./src/img/partial-fountain.png" class="fotos" >
+            <img src="./src/img/forbidden-fountain.png" class="fotos">
+         </div>
+         <div class="listaDeRecomendação">
+            <p class="bb-parcial">Parcial</p>
+            <p class="bb-proibido">Proibido</p>           
+         </div>
+    </li>
+    <li>
+        <p class="cordosequipamentos">Vestiários</p>
+        
+        <div class="fotosDosEquipamentos">
+            <img src="./src/img/required-lockerroom.png" class="fotos">
+            <img src="./src/img/partial-lockerroom.png" class="fotos">
+            <img src="./src/img/forbidden-lockerroom.png" class="fotos">         
+         </div>
+         <div class="listaDeRecomendação" id="vesti">        
+            <p>Liberado</p>
+            <p>Parcial</p>
+            <p>Fechado</p>
+         </div>
+    </li>
+</ul>
+</div>
+<br>
+
+<div class="locaisDisponíveis">
+    <div class="localDasInformações">
+     
+        <p class="localDestrancado">Aberto</p>   
+        <h3>Vicente Linhares</h3><br>
+        <p>Rua Tibúrcio Cavalcante,1885<br>
+           Meireles</br>
+           Fortaleza, CE
+        </p>
+        <br>
+        <hr>
+        <br>
+<div class="listaDeImagensEquipamentosEmLocaisDisponiveis">
+    <img src="./src/img/required-mask.png"class="imagensEquipamentosEmLocaisDisponiveis">
+<img src="./src/img/required-towel.png"class="imagensEquipamentosEmLocaisDisponiveis">
+<img src="./src/img/partial-fountain.png"class="imagensEquipamentosEmLocaisDisponiveis">
+<img src="./src/img/forbidden-lockerroom.png"  class="imagensEquipamentosEmLocaisDisponiveis">
+</div>
+<br>
+        <h3>Seg. à Sex. Sáb.</h3>
+        <p>06h às 22h 09h às 18</p>
+        <br>
+        <h3>Dom.</h3>
+        <p>Fechada</p>
+    </div>
+
+    <div class="localDasInformações">
+        <p class="localTrancado">Fechado</p>
+        <h3>Vila Carrão</h3>
+        <br>
+        <p>Av. Guilherme Giorgi,1460,Vila Carrão, São Paulo - SP</p>
+    </div>
+
+    <div class="localDasInformações">
+        <p class="localTrancado">Fechado</p>
+       
+        <h3>Vila Carrão</h3>
+        <br>
+        <p>Av. Guilherme Giorgi,1460,Vila Carrão, São Paulo - SP</p>
+    </div>
+
+</div>
+
+<br><br><br><br>
+
+
+
+</main>
+    <footer>
+        <img src="./src/img/logo.svg" class="logoFooter">
+        <p class="creditosDoFooter">Todos os direitos reservados - 2020</p>
+    </footer>
+
+
+</body>
+</html>    

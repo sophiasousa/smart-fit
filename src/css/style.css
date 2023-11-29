@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Configuração para desktop */
+.cabeçalhodeInfomações{
+    position: absolute;
+    left: 100px;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;  /* Trocar a fonte depois*/
+  
+}
+main{
+    margin:20px;
+}
+.cabeçalho{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    margin-top: -20px;
+    
+}
+.cabeçalhodaLogo{
+   height:60px;
+   display:block;
+   margin: auto;
+}
+
+.logoFooter{
+    width: 100px;
+    height: 120px;
+}
+
+
+footer{
+    background-color: #808080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.creditosDoFooter{
+  position: relative;
+  top:-20px;
+  color: white;
+}
+
+.caixaBlack{
+    height: 10px;
+    width: 100px;
+    background-color: #333333;
+}
+
+
+ul{
+  width: 890px;
+    background-color: #dcd8d8;
+    height: 150px;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+   
+    overflow: hidden;
+   justify-content: center;
+}
+
+li{
+    margin: 10px;
+    
+    
+    height: 120px;
+    width: 200px;
+    text-align: center;
+
+
+}
+.listaDeEquipamentos{
+    display: flex;
+    justify-content: center;
+    
+}
+.fotosdosequipamentos{
+    display:flex;
+    justify-content:space-around;
+    padding: 10PX;
+
+}
+
+.fotos{
+    width:50px;
+    height:50px;
+}
+
+.listaDeRecomendação{
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+
+.locaisDisponíveis{
+ 
+    height: 363px;
+    width: 100%px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+}
+.localDasInformações{
+    padding: 10px;
+    width: 268px;
+    height: 330px;
+    background-color: #dcd8d8;
+    border: #808080 solid 1px; 
+    border-radius: 10px;
+}
+
+.localDestrancado{
+    color: #2FC022;
+    font-weight:1000;
+
+}
+.localTrancado{
+color: #dc0a17;
+font-weight:1000;
+}
+
+.cordosequipamentos{
+    color:#333333;
+    font-weight:1000;
+}
+
+.listadeImagensEquipamentosEmLocaisDisponiveis{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.imagensEquipamentosEmLocaisDisponiveis{
+    width: 50px;
+    height: 50px;
+}
+
+@font-face {
+    font-family: gotham-black;
+    src: url(./src/font/gotham-black.woff2);
+}
+
+h1{
+    font-family: gotham-black;
+}
+
+.horários{
+    padding: 10px;
+    
+    height: 380px ;
+    width: 870px;
+    border:5px solid #dcd8d8;
+    border-radius: 10px ;
+    
+   
+
+}
+
+#horariosCorTexto{
+    color: #dcd8d8;
+}
+
+.botoesDehorarios{
+    width: 200px;
+    height: 40px;
+    transition: ease-in-out 0.2s;
+    border:2px solid #dcd8d8;
+    background-color:  #FFB612;
+    border-radius: 5px;
+    font-weight:1000;
+    cursor: pointer;
+}
+.botoesDehorarios2{
+    width: 200px;
+    height: 40px;
+    transition: ease-in-out 0.2s;
+    border:2px solid #dcd8d8;
+    background-color:  #ffffff;
+    border-radius: 5px;
+    font-weight:1000;
+    cursor: pointer;
+}
+
+.botoesDehorarios:hover{
+    background-color:  #FFB612;
+    transform: 0.2s;
+    border: none;
+
+    
+}
+
+.listaDeBotoes{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+
+.fotoDoRelógio{
+    width: 30px;
+    height: 30px;
+}
+
+.relógio{
+    display: flex;
+   
+}
+
+.textoDoRelógio{
+    margin-left:10px ;
+    position: relative;
+    top:6px;
+}
+
+.conteúdo{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+
+.posicionamentoDoHorário{
+    text-align-last: right;
+    margin-top: -20px;
+    
+}
+
+.resultadosEncontrados{
+    margin-left:445px   ;
+}
+
+.alinharCabeçalho{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cabeçalhoEInfomarções{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 20px;
+    width: 50px;
+}
+
+#alinharTextosNoHeader{
+    position: relative;
+    left: 2px;
+}
+
+.bb-parcial{
+    position: relative;
+    left:21px
+
+}
+
+.bb-proibido{
+    position: relative;
+    left:-15px;
+}
+
+
+#vesti {
+    margin-top: -15px;
+}
+.encontrar{
+    background-color: #FFB612;
+}
+.proibir{
+    background-color: #dcd8d8;;
+}
